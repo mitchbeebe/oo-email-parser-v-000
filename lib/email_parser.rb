@@ -13,8 +13,7 @@ class EmailParser
   end
   
   def self.parse(emails)
-  
-  
-    
+    self.emails = emails.split(/\ |\,/).strip
+  end
   
 end
