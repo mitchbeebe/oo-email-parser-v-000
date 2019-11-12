@@ -8,10 +8,6 @@ class EmailAddressParser
   
   @@raw_emails = ''
   
-  def initialize(emails)
-    @@raw_emails << emails
-  end
-  
   def parse
     self.emails.split(/\ |\,/).strip
   end
