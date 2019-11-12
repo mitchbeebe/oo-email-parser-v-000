@@ -12,6 +12,8 @@ class EmailParser
     @@raw_emails << emails
   end
   
+  def self.parse(emails)
+  
   
     
   
